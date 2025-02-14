@@ -6,7 +6,7 @@ Fun and simple memory game, like the one from Super Mario 3, made with plain Jav
 
 ## Instructions
 
-Just want to view the source of all the steps from start to finish? [View steps](https://gist.github.com/taniarascia/a3b550d568f3e6b693e89786eb333988).
+Just want to view the source of all the steps from start to finish? [View steps](https://github.com/Ganeshpandip/Memory-Game-in-java-scirpt.git).
 
 - Display 12 cards.
 - Duplicate the cards to have 2 sets of 12.
