@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.game-board1{
+    width: 50%;
+    height: 70vh;
+    /* background-color: teal; */
+    background: url("https://img.joomcdn.net/ff87a9a7d188319eed0564c1b4b4fd47c3209b4b_original.jpeg")center/cover;
+    border: 2px solid black;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-repeat: no-repeat;
+
+}
+
+
+.game-board2{
+    width: 50%;
+    height: 70vh;
+    background-color: teal;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board1 div{
+    min-height: 150px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.card-back{
+    background-color: teal;
+
+}
+
+
+.flip{
+    animation: flip 0.5s linear;
+
+}
+
+@keyframes flip {
+    0%{
+        transform: rotateY(180deg);
+    }
+}
